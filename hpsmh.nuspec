@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hpsmh</id>
+    <version>7.6.3</version>
+    <title>HPE System Management Homepage</title>
+    <authors>HP Inc</authors>
+    <owners>ducksecops</owners>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/434px-HP_New_Logo_2D.svg.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/ducksecops/chocolatey-hpsmh</projectUrl>
+    <copyright>HP Inc</copyright>
+    <tags>System Management HP</tags>
+    <summary>HPE System Management Homepage Software for Windows Server</summary>
+    <description>The HPE System Management Homepage (SMH) consolidates and simplifies the management of ProLiant and Integrity servers running Microsoft Windows or Linux, or HPE 9000 and HPE Integrity servers running HP-UX 11i. By aggregating data from HPE Insight Management Agents and other tools, SMH provides a secure and intuitive interface to review in-depth hardware configuration and status data, performance metrics, system thresholds and software version control information. SMH can also be used to access the HPE Lights-Out Management processor on ProLiant and Integrity servers. SMH is part of the Service Pack for ProLiant (SPP) or the Integrity Support Pack (ISP), and can be extended to meet specific system management requirements by integrating additional plug-in tools. SMH is easy to install and can be extended to meet specific system management requirements by integrating additional HPE plug-in management tools that include HPE Online Diagnostics and HPE Software Version Control Agents.</description>
+    <docsUrl>https://www.hpe.com/uk/en/product-catalog/detail/pip.344313.html</docsUrl>
+    <releaseNotes>https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_b36fb879335a41d78ee5e99f7f#tab-history</releaseNotes>
+    <licenseUrl>https://www.hpe.com/uk/en/software/licensing.html</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
